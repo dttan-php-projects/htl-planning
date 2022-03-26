@@ -1,0 +1,11 @@
+<?php
+session_start();
+if(!empty($_SESSION['paxar'])){
+	unset($_SESSION['paxar']);
+}
+if(!empty($_SESSION['trim'])){
+	unset($_SESSION['trim']);
+}
+if(!empty($_SESSION['sips'])){
+	unset($_SESSION['sips']);
+}

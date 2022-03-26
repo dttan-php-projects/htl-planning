@@ -1,0 +1,155 @@
+*{margin:0px;padding:0px;}
+html, body {
+    width: 100%;      /*provides the correct work of a full-screen layout*/ 
+    height: 100%;     /*provides the correct work of a full-screen layout*/
+    margin: 0px;      /*hides the body's scrolls*/
+    /*font-family: "Source Sans Pro","Helvetica Neue",Helvetica;*/
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 11px;
+}
+td{
+    border:  1px solid;
+}
+
+.Cter td{
+    text-align: center;
+}
+
+.Hder{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.Big{
+    font-size: 20px;
+}
+
+.Gray{
+    background-color: gray;
+}
+
+.Yellow{
+    background-color: yellow;
+}
+
+.Skin{
+    background-color: #ffd480;
+}
+
+.Pink{
+    background-color: #ffccff;
+}
+
+td{
+    text-align: center;
+}
+.none_border{
+    border:none;
+}
+.none_border_left_right{
+    border-left:0px;
+    border-right:0px;
+}
+.none_border_right{
+    border-right:0px;
+}
+.none_border_left{
+    border-left:0px;
+}
+.none_border_top_bottom{
+    border-top:0px;
+    border-bottom:0px;
+}
+.none_border_bottom{
+    border-bottom:0px;
+}
+.none_border_top{
+    border-top:0px;
+}
+.border_right{
+    border-right:1px solid;
+}  
+.border_top{
+    border-top:5px solid;
+}   
+.detail_item tr td{
+    font-size:10px;
+} 
+@media print {
+    @page {
+        /*size: A4 landscape;*/
+        size: A4;
+    }
+    body{
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        zoom:100%;
+    }
+}  
+.aleft{
+    text-align:left;
+}
+.aright{
+    text-align:right;
+}
+.bold{
+    font-weight:bold;
+}
+.pt13{
+    font-size:13pt;
+} 
+.pt20{
+    font-size:20pt;
+}
+.pt25{
+    font-size:25pt;
+}
+.pt22{
+    font-size:22pt;
+}
+.pt18{
+    font-size:18pt;
+}
+.pt17{
+    font-size:18pt;
+}
+.pt16{
+    font-size:18pt;
+}
+.pt15{
+    font-size:15pt;
+}
+.pt13{
+    font-size:13pt;
+}
+.pt14{
+    font-size:14pt;
+}
+.pt12{
+    font-size:12pt;
+}
+.pt10{
+    font-size:10pt;
+} 
+.pt8{
+    font-size:8pt;
+} 
+.pt7{
+    font-size:7pt;
+}  
+.pt6{
+    font-size:6pt;
+}
+.relative_td{
+	position:relative;
+}
+table.padding td{
+    padding-left:3px;
+}
+.nen_vang{
+    background-color:#FFFF00;
+}
+.nen_cam{
+    background-color:#FFC000;
+}
